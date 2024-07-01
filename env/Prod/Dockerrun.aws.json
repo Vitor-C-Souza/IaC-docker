@@ -1,0 +1,13 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "637423215007.dkr.ecr.us-west-2.amazonaws.com/producao:v2",
+      "Update": "true"
+    },
+    "Ports": [
+      {
+        "ContainerPort": 8000,
+        "HostPort":8000
+      }
+    ]
+  }
